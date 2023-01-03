@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "84578005953",
+    "project_id": "underboneapp",
+    "storage_bucket": "underboneapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:84578005953:android:fa9fc489846169818af540",
+        "android_client_info": {
+          "package_name": "com.Hanif.underboneapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "84578005953-jm9qio5fv9qa1lk86lqgog1qiphee6vc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmoLmHxCyeoYsHDaDBP8C0rb9hv7Phvtc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "84578005953-jm9qio5fv9qa1lk86lqgog1qiphee6vc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:84578005953:android:6aa61294a8c20ebc8af540",
+        "android_client_info": {
+          "package_name": "com.example.underboneapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "84578005953-jm9qio5fv9qa1lk86lqgog1qiphee6vc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmoLmHxCyeoYsHDaDBP8C0rb9hv7Phvtc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "84578005953-jm9qio5fv9qa1lk86lqgog1qiphee6vc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

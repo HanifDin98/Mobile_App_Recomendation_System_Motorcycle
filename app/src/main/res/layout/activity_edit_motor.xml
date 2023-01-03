@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".EditMotor">
+
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/aclonica"
+        android:text="Edit Motorcycle"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/EdName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Motorycle Name"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/EdEngineType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Engine Type"
+        android:inputType="textMultiLine"/>
+
+    <EditText
+        android:id="@+id/EdDisplacement"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Displacement(number)"
+        android:inputType="number"/>
+    <EditText
+        android:id="@+id/EdEngineCooling"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Engine Cooling"
+        android:inputType="textMultiLine"/>
+
+    <EditText
+        android:id="@+id/EdFrameType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Frame Type"
+        android:inputType="textMultiLine"/>
+
+    <EditText
+        android:id="@+id/EdFuelCapacity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fuel Capacity(decimal)"
+        android:inputType="numberDecimal"/>
+
+    <EditText
+        android:id="@+id/EdMaxPower"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Max Power(decimal)"
+        android:inputType="numberDecimal"/>
+
+    <EditText
+        android:id="@+id/EdStartingSystem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Starting System"
+        android:inputType="textMultiLine"/>
+    <EditText
+        android:id="@+id/EdTransmission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Transmission"
+        android:inputType="textMultiLine"/>
+
+    <EditText
+        android:id="@+id/EdImageURI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ImageUrl"
+        android:inputType="textMultiLine"/>
+
+    <EditText
+        android:id="@+id/EdBrand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Brand"
+        android:inputType="textMultiLine"/>
+
+<!--    <EditText-->
+<!--        android:id="@+id/EdId"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="ID"-->
+<!--        android:inputType="textMultiLine"/>-->
+
+    <Button
+        android:id="@+id/bttnEditSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg"
+        android:text="Save" />
+
+
+</LinearLayout>
+
+</ScrollView>

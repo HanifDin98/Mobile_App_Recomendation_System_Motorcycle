@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Recomendation">
+
+
+    <TextView
+        android:id="@+id/Top5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageAllMotor"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="7dp"
+        android:text="Top 5 Similar Motorcycle: "
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Motorcycle Name: "
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_below="@+id/Top5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="7dp"
+        android:id="@+id/in1"/>
+
+    <TextView
+        android:id="@+id/txtOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/in1"
+        android:layout_marginTop="17dp"
+        android:text="1: "
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/OneAnswer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtOne"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="110dp"
+
+        android:layout_marginTop="-25dp"
+        android:layout_marginEnd="123dp"
+        android:layout_toEndOf="@+id/txtOne"
+        android:text="Recomendation"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/OneAnswer"
+        android:layout_marginTop="20dp"
+        android:text="2: "
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/TwoAnswer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtTwo"
+        android:layout_alignParentEnd="true"
+
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="-24dp"
+        android:layout_marginEnd="123dp"
+        android:layout_toEndOf="@+id/txtTwo"
+        android:text="Recomendation"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtThree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TwoAnswer"
+        android:layout_marginTop="19dp"
+        android:text="3: "
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/ThreeAnswer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@id/txtThree"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="-24dp"
+        android:layout_marginEnd="123dp"
+        android:layout_toEndOf="@+id/txtThree"
+        android:text="Recomendation"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtFour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ThreeAnswer"
+        android:layout_marginTop="20dp"
+        android:text="4: "
+        android:textIsSelectable="true"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/FourAnswer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@id/txtFour"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="-25dp"
+        android:layout_marginEnd="123dp"
+
+        android:layout_toEndOf="@+id/txtFour"
+        android:text="Recomendation"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtFive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/FourAnswer"
+        android:layout_marginTop="23dp"
+        android:text="5: "
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/FiveAnswer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtFive"
+        android:layout_alignTop="@+id/txtFive"
+
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="111dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="122dp"
+        android:layout_toEndOf="@+id/txtFive"
+        android:text="Recomendation"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:textSize="20sp"
+        android:layout_below="@+id/FiveAnswer"
+        android:id="@+id/txtinvisible"/>
+
+    <Button
+        android:id="@+id/bttntoSearch"
+        android:textIsSelectable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtinvisible"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bg"
+        android:text="SEARCH" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/questionRec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bttntoSearch"
+        android:layout_alignEnd="@+id/FiveAnswer"
+        android:layout_marginTop="111dp"
+        android:layout_marginEnd="-112dp"
+        android:background="@color/white"
+        android:src="@drawable/ic_action_arrow2" />
+
+
+    <!--    <Button-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/bttn1"-->
+<!--        android:text="Submit"-->
+<!--        android:layout_below="@id/in1"-->
+<!--        android:layout_margin="20dp"-->
+<!--        android:padding="20dp"/>-->
+
+
+
+</RelativeLayout>

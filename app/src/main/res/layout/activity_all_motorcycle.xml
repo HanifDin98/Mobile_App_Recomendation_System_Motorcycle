@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AllMotorcycleActivity"
+    >
+
+<!--    android:background="@drawable/back"-->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:id="@+id/searchid"
+        android:drawableStart="@drawable/ic_menu_search"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toEndOf="parent"
+        android:hint="Search Motor Name (case sensitive)"
+        android:inputType="textAutoComplete"
+        app:layout_constraintBottom_toTopOf="@+id/MotorRecycleView"/>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/MotorRecycleView"
+        android:layout_width="267dp"
+        android:layout_height="635dp"
+        app:layout_constraintBottom_toBottomOf="@+id/searchid"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

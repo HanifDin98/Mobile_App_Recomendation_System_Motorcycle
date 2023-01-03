@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".AddMotorycle">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/aclonica"
+        android:text="Add Motorcycle"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/AddName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Motorycle Name"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/AddEngineType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Engine Type"
+        android:inputType="textMultiLine"/>
+
+    <EditText
+        android:id="@+id/AddDisplacement"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Displacement(number)"
+        android:inputType="number"/>
+    <EditText
+        android:id="@+id/AddEngineCooling"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Engine Cooling"
+        android:inputType="textMultiLine"/>
+
+    <EditText
+        android:id="@+id/AddFrameType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Frame Type"
+        android:inputType="textMultiLine"/>
+
+    <EditText
+        android:id="@+id/AddFuelCapacity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fuel Capacity(decimal)"
+        android:inputType="numberDecimal"/>
+
+    <EditText
+        android:id="@+id/AddMaxPower"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Max Power(decimal)"
+        android:inputType="numberDecimal"/>
+
+    <EditText
+        android:id="@+id/AddStartingSystem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Starting System"
+        android:inputType="textMultiLine"/>
+    <EditText
+        android:id="@+id/AddTransmission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Transmission"
+        android:inputType="textMultiLine"/>
+
+    <EditText
+        android:id="@+id/AddImageURI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ImageUrl"
+        android:inputType="textMultiLine"/>
+
+    <EditText
+        android:id="@+id/AddBrand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Brand"
+        android:inputType="textMultiLine"/>
+
+    <Button
+        android:id="@+id/bttnAddSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg"
+        android:text="Save" />
+
+
+
+</LinearLayout>
+
+</ScrollView>

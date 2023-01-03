@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="10dp"
+    android:layout_margin="10dp"
+    app:cardBackgroundColor="?attr/colorSurface">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="220dp"
+            android:id="@+id/imageAllMotorfav"
+            android:src="@mipmap/ic_launcher"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Motorcycle Name: "
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_below="@+id/imageAllMotorfav"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="7dp"
+            android:id="@+id/motorNamefav"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Brand: "
+            android:layout_below="@+id/motorNamefav"
+            android:id="@+id/txtBrandfav "/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Brand Answer"
+            android:layout_below="@id/txtBrandfav"
+            android:id="@+id/meisamfav"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Displacement:"
+            android:id="@+id/txtDisplacementfav"
+            android:layout_below="@id/meisamfav"
+            android:layout_marginTop="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Displacement Answer"
+            android:layout_below="@id/txtDisplacementfav"
+            android:id="@+id/meisam2fav"/>
+
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
